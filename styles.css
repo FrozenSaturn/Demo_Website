@@ -1,23 +1,35 @@
 
 *{
-    background-color:;
+    /* background-color: */
     margin: 0;
     padding: 0;
     /* display: flex; */
 }
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem ;
-    background-color: black;
-    color: aqua;
-
-}
-
 .navlinks{
     list-style: none;
-    display: flex;
     gap: 1.5rem;
+}
+
+.navlinks ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: grey;
+}
+
+.navbar li{
+    float: right;
+}
+.image{
+    float: left;
 }
